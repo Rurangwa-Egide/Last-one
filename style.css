@@ -1,0 +1,196 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.fa-square-whatsapp:hover,.fa-square-instagram:hover,.fa-facebook:hover,.fa-youtube:hover,.fa-twitter:hover{
+    transition: 1s;
+    transform: scale(2);
+    /* cursor: zoom-out;
+     rotate: calc(15120deg);
+    transform: rotate(2deg) scale(1.2); */
+}
+#fa{
+    margin-top: 1rem;
+}
+.fa-square-whatsapp{
+    color: green;
+}
+.fa-square-instagram{
+    color: rgb(148, 17, 39);
+
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-twitter{
+    color: #0576d3;
+}
+.logo1{
+    margin-right: 5%;
+    float: right;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+
+.maine{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #9c27b0,#8ecdff);
+    cursor: pointer;
+    overflow-y: auto;
+}
+.nav-link{
+    width: 98%;
+    position: fixed;
+     background: linear-gradient(to right, #8a4596,#8ecdff);
+    flex: 1;
+    text-align: center;
+    padding: 2rem;
+    z-index: 100;
+    
+}
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    text-transform: capitalize;
+   
+
+}
+.nav-link ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+.nav-link ul li a:hover{
+    color: black;
+}
+.fa-trophy{
+    font-size: 50px;
+    margin-left: 10%;
+    color: rgb(243, 239, 30);
+}
+.search{
+    padding: 10px;
+    width: 200px;
+    border: transparent;
+    border-radius: 10px;
+    float: right;
+}
+#xtra{
+    width: 50%;
+    position: fixed;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    margin-top: 8rem;
+}
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 8rem;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 2rem;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    margin-top: 3rem;
+    color: white;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+#your{
+    margin-top: 3rem;
+    font-size:50px;
+    color: rgb(224, 228, 3);
+
+    
+}
+
+.fa-square-check{
+    margin-left: 90px;
+    text-transform: capitalize;
+     color: rgb(224, 228, 3);
+     font-size: 20px;
+}
+.buy{
+    width: 20%;
+    height: 4.5rem;
+    text-transform: capitalize;
+    font-size: 25px;
+    background-color: yellow;
+    border: none;
+    margin-top: 4rem;
+    border-radius: 3px;
+    margin-left: 40%;
+    cursor: pointer;
+
+}
+.buy .fa-trophy{
+    color: black;
+    font-size: 35px;
+
+}
+#only{
+    text-align: center;
+
+}
+.buy:hover{
+    transform: scale(1.1);
+    transition: 1s;
+     filter: brightness(100%) contrast(60%);
+     object-fit: cover;
+}
+#limited{
+    text-align: center;
+    margin-top: 1rem;
+    color:#646464;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+.slider{
+    width: 1200px;
+    height: 660px;
+    border: 2px solid #dcdcdc;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 20px;
+    background-image: url("/Images/shops.webp");
+    cursor: grab;
+    background-size: 100%;
+    animation: slide 8s 2s infinite;
+}
+@keyframes slide {
+    0%{background-image: url("/Images/shops.webp");}
+    25%{background-image: url("/Images/shops1.jpg");}
+    50%{background-image: url("/Images/shops2.jpg");}
+    75%{background-image: url("/Images/shops3.jpg");}
+    100%{background-image: url("/Images/shops4.jpg");}
+    
+    
+    
+}
+@media screen and (max-width: 1020px) {
+
+    
+    
+}
